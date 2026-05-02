@@ -7,7 +7,7 @@ This repository provides a collection of architectural blueprints and step-by-st
 ## 🏗️ Architectural Workflows
 
 ### 1. Amazon SNS Setup Guide
-A comprehensive 4-module process flow covering the end-to-end configuration of Amazon SNS. It details topic creation via the Console or CLI, subscription management across multiple protocols (Email, Lambda, HTTP/S), and message publishing workflows.
+The Amazon SNS setup guide outlines an end-to-end configuration process for cloud messaging. It begins with topic creation via the AWS Management Console or CLI to establish a unique communication channel. Next, subscriptions are managed by connecting that topic to various protocols like Email, Lambda, or HTTP/S. A mandatory confirmation step follows to activate the connection, concluding with a testing phase where a message is published to verify successful delivery to all endpoints.
 
 **Process Flow:**
 ![Amazon SNS Setup Guide](SNS-Configuration-Roadmap.png)
