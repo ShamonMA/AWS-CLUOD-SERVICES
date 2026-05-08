@@ -54,7 +54,7 @@ An observability blueprint for proactive infrastructure monitoring. It details t
 
 ---
 
-### 7. Docker CI/CD Pipeline (GitLab & ECS)
+### 7. Docker CI/CD Pipeline: GitLab, Amazon ECR, and ECS Orchestration
 An advanced orchestration blueprint for containerized .NET APIs. This flow demonstrates the integration of GitLab source control with AWS CodeBuild, Amazon ECR for image storage, and Amazon ECS Fargate for automated application deployment.
 
 **Process Flow:**
@@ -62,11 +62,11 @@ An advanced orchestration blueprint for containerized .NET APIs. This flow demon
 
 ---
 
-### 8. CI/CD Steps: AWS CodePipeline & CodeDeploy
+### 8. AWS CI/CD Pipeline: GitLab Integration with CodeDeploy & IIS
 A multi-stage deployment strategy for .NET 8 APIs onto Windows Server environments. It highlights the coordination between S3 artifacts, GitLab connections, and the AWS CodeDeploy agent for in-place application updates.
 
 **Process Flow:**
-![AWS CodeDeploy Flow](CI_CD Steps-AWS-Codebuild-Codedploy-Codepipeline.png)
+![AWS CodeDeploy Flow](CI_CD%20Steps-AWS-Codebuild-Codedploy-Codepipeline.png)
 
 ---
 
