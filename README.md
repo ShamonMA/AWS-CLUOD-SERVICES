@@ -70,6 +70,14 @@ A multi-stage deployment strategy for .NET 8 APIs onto Windows Server environmen
 
 ---
 
+### 9. Implementing Redis-Compatible Caching with AWS Valkey for .NET 10
+A production-ready implementation of a cache-aside pattern using AWS ElastiCache (Valkey) and .NET 10. This guide provides a modular approach to configuring cloud infrastructure, managing secure connections, and implementing efficient IDistributedCache service patterns to optimize SQL database performance.
+
+**Process Flow:**
+![Implementing Redis](Redis.png)
+
+---
+
 ## 🛠️ Tech Stack Featured
 *   **Development:** .NET 8 / C#, Visual Studio, PowerShell.
 *   **Cloud Infrastructure:** AWS (Lambda, SNS, RDS, EC2, S3, CloudWatch).
