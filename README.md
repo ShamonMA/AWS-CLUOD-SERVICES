@@ -70,11 +70,20 @@ A multi-stage deployment strategy for .NET 8 APIs onto Windows Server environmen
 
 ---
 
-### 9. Implementing Redis-Compatible Caching with AWS Valkey for .NET 10
+### 9. Kubernetes-Native CI/CD: Automated .NET API Deployment on AWS EKS
+This project demonstrates a streamlined end-to-end CI/CD pipeline for deploying .NET applications to AWS EKS. The workflow covers the entire lifecycle, starting from local environment setup using AWS CLI, kubectl, and eksctl, to the automated provisioning of EKS clusters and ECR repositories. It leverages multi-stage Docker builds and Kubernetes manifests for codebase preparation, while utilizing GitLab CI/CD for secure, automated image pushing and cluster deployment. Finally, the pipeline includes verification steps and automated resource cleanup to maintain infrastructure efficiency.
+
+**Process Flow:**
+![Kubernetes-Native-CICD](Kubernetes-Native-CICD.png)
+
+---
+
+### 10. Implementing Redis-Compatible Caching with AWS Valkey for .NET 10
 A production-ready implementation of a cache-aside pattern using AWS ElastiCache (Valkey) and .NET 10. This guide provides a modular approach to configuring cloud infrastructure, managing secure connections, and implementing efficient IDistributedCache service patterns to optimize SQL database performance.
 
 **Process Flow:**
 ![Implementing Redis](Redis.png)
+
 
 ---
 
