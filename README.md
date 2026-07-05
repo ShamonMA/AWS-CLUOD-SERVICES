@@ -88,7 +88,7 @@ A production-ready implementation of a cache-aside pattern using AWS ElastiCache
 ---
 
 ## 🛠️ Tech Stack Featured
-*   **Development:** .NET / C#, Visual Studio, PowerShell.
+*   **Development:** .NET / C#, Visual Studio, PowerShell, AWS CLI.
 *   **Cloud Infrastructure:** AWS (Lambda, SNS, RDS, EC2, S3, CloudWatch, AWS Valkey).
-*   **DevOps & Containers:** Docker, GitLab, Amazon ECR/ECS, AWS CodePipeline.
+*   **DevOps & Containers:** Docker, GitLab, AWS ECR/ECS/EKS, AWS CodePipeline.
 *   **Networking:** VPC Endpoints, IAM Policy Management.
